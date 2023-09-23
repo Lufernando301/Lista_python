@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css"> 
+			input{
+				border-bottom: 1px dotted white;
+				border-top: none;
+				border-right: none;
+				border-left: none;
+				padding: 5px;
+				width: 290px;
+				margin-bottom: 20px;
+			}
+			input:focus{
+				border: 1px dotted white;
+			}
+			input#submit:hover{
+				color: green;
+				background-color: red;
+			}
+			fieldset{
+				width: 400px;
+				border: 1px solid #B8B8BA;
+				border-radius: 10px;
+				padding: 20px;
+				text-align: left;
+				background-color: 	#696969;
+			}
+			legend{
+				background-color: #ADD8E6;
+				border: 1px solid grey;
+				border-radius: 10px;
+				padding: 10px 20px;
+				text-align: left;
+				text-transform: uppercase;
+			}
+			.botao{
+				background-color: #000000;
+				color: #DCDCDC;
+			}
+		</style>
+		<title>Formulário CSS</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form action="">
+			<fieldset>
+				<legend>Ficha Otaku</legend>
+				<label>Nome:<input type"text" id="nome"></label><br>
+				<label>Gênero de anime favorito:</label><br><br>
+				<select name="genero">
+					<option value="sh">Shonen</option>
+					<option value="se">Seinen</option>
+					<option value="yu">Yuri</option>
+					<option value="ya">Yaoi</option>
+				</select></p>
+				 <label>Número de animes assistidos:<br><br><input type"text" id="number"></label>
+				<input class="botao" type="submit" value="Enviar"></input>
+			</fieldset>
+		</form>
+	</body>
+</html>
